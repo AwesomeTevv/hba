@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       blush,
     "There may be a small secret",
     "Once you have the message, go to the URL ↑ and replace 'message' with the code.",
+    "But for now, relax, and do some stargazing " + heart,
   ];
   var messageIndex = 0;
   var messageElement = document.getElementById("message");

@@ -1,11 +1,11 @@
 onload = () => {
+  var audio = document.getElementById("bg-music");
+  audio.volume = 0.1;
+
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
     clearTimeout(c);
   }, 5000);
-
-  var audio = document.getElementById("bg-music");
-  audio.volume = 0.1;
 
   //   // Load the audio file
   //   audio.load();
