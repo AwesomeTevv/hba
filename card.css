@@ -18,6 +18,10 @@ body {
   background-color: #fdd3db;
 }
 
+.bg-music {
+  display: none;
+}
+
 .card {
   width: 640px;
   height: 400px;
